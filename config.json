@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "cache_ttl_minutes": 30,
   "global": {
     "maintenance_mode": false,
@@ -46,7 +46,8 @@
   "kill_switches": {
     "ads_enabled": false,
     "billing_enabled": true,
-    "analytics_enabled": true,
+    "analytics_enabled": false,
+    "crash_reporting_enabled": false,
     "profile_provisioning_enabled": true,
     "clone_install_enabled": true,
     "clone_launch_enabled": true,
