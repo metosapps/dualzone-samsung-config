@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "cache_ttl_minutes": 30,
+  "global": {
+    "maintenance_mode": false,
+    "maintenance_title": "Temporarily unavailable",
+    "maintenance_message": "DualZone is temporarily unavailable. Please try again shortly.",
+    "maintenance_until_epoch_seconds": 0
+  },
+  "android": {
+    "google_play": {
+      "min_supported_version_code": 1,
+      "latest_version_code": 1,
+      "update_mode": "none",
+      "update_url": "market://details?id=com.dualzone.app",
+      "web_fallback_url": "https://play.google.com/store/apps/details?id=com.dualzone.app",
+      "rate_url": "market://details?id=com.dualzone.app"
+    },
+    "galaxy_store": {
+      "min_supported_version_code": 1,
+      "latest_version_code": 1,
+      "update_mode": "none",
+      "update_url": "samsungapps://ProductDetail/com.dualzone.app",
+      "web_fallback_url": "https://galaxystore.samsung.com/detail/com.dualzone.app",
+      "rate_url": "samsungapps://ProductDetail/com.dualzone.app"
+    }
+  },
+  "links": {
+    "support_email": "",
+    "privacy_policy": "",
+    "terms": "",
+    "help": "",
+    "website": ""
+  },
+  "features": {
+    "cloning_enabled": true,
+    "vault_enabled": true,
+    "shortcuts_enabled": true,
+    "storage_enabled": false,
+    "hide_apps_enabled": false,
+    "app_lock_enabled": false,
+    "custom_icons_enabled": false,
+    "remote_content_enabled": true
+  },
+  "kill_switches": {
+    "ads_enabled": false,
+    "billing_enabled": true,
+    "analytics_enabled": true,
+    "profile_provisioning_enabled": true,
+    "clone_install_enabled": true,
+    "clone_launch_enabled": true,
+    "shortcuts_enabled": true,
+    "profile_wipe_enabled": true,
+    "vault_writes_enabled": true,
+    "remote_assets_enabled": false
+  },
+  "content": {
+    "announcement": {
+      "enabled": false,
+      "title": "",
+      "message": "",
+      "action_label": "",
+      "action_url": ""
+    }
+  }
+}
