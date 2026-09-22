@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 2,
+  "revision": 4,
   "cache_ttl_minutes": 30,
   "global": {
     "maintenance_mode": false,
@@ -27,11 +27,11 @@
     }
   },
   "links": {
-    "support_email": "",
-    "privacy_policy": "",
-    "terms": "",
-    "help": "",
-    "website": ""
+    "support_email": "chennoufo11@gmail.com",
+    "privacy_policy": "https://metosapps.github.io/dualzone-samsung-config/privacy.html",
+    "terms": "https://metosapps.github.io/dualzone-samsung-config/terms.html",
+    "help": "https://metosapps.github.io/dualzone-samsung-config/help.html",
+    "website": "https://metosapps.github.io/dualzone-samsung-config/"
   },
   "features": {
     "cloning_enabled": true,
@@ -45,7 +45,7 @@
   },
   "kill_switches": {
     "ads_enabled": false,
-    "billing_enabled": true,
+    "billing_enabled": false,
     "analytics_enabled": false,
     "crash_reporting_enabled": false,
     "profile_provisioning_enabled": true,
