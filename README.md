@@ -10,6 +10,14 @@
 
 GitHub Pages publishes `main:/docs` over HTTPS. The site uses the publisher-supplied icon, local CSS, and no analytics scripts or third-party fonts. It does not claim the app is already live. Only public website assets and signed data-only configuration belong in this repository; no private keys or Android source/build artifacts.
 
+### Landing page
+
+The October 1, 2026 refresh includes the app logo, feature overview, two illustrative promotional previews, local preview-dialog JavaScript, support email, and existing legal pages. All image assets are hosted locally under `docs/assets/`; previews are optimized WebP files.
+
+The Galaxy Store badge links to `https://galaxystore.samsung.com/detail/com.dualzone.app`. The publisher confirmed the listing is not live yet, so the website explicitly says "Coming soon". After confirming public store availability, update the coming-soon wording in `docs/index.html` and `docs/help.html`. Do not change signed app configuration merely to update the website.
+
+The website is buildless: open `docs/index.html` locally to preview, or push website-only changes to `main` to publish through the existing GitHub Pages workflow. Preserve the `privacy.html`, `terms.html`, and `help.html` URLs used by the app.
+
 ## Samsung IAP status
 
 The next prepared binary declares Samsung's billing permission for Seller Portal registration. This is NOT an integrated Samsung purchase flow. Purchases remain disabled and there are no configured paid products or prices. A future purchase-enabled release needs the Samsung SDK, registered products, entitlement validation, restore/acknowledgement handling, device testing and store review. Prices can be configured later. An app does not need to be live to register and test IAP products.
