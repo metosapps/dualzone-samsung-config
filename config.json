@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 4,
+  "revision": 5,
   "cache_ttl_minutes": 30,
   "global": {
     "maintenance_mode": false,
@@ -44,8 +44,8 @@
     "remote_content_enabled": true
   },
   "kill_switches": {
-    "ads_enabled": false,
-    "billing_enabled": false,
+    "ads_enabled": true,
+    "billing_enabled": true,
     "analytics_enabled": false,
     "crash_reporting_enabled": false,
     "profile_provisioning_enabled": true,

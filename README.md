@@ -20,7 +20,9 @@ The website is buildless: open `docs/index.html` locally to preview, or push web
 
 ## Samsung IAP status
 
-The next prepared binary declares Samsung's billing permission for Seller Portal registration. This is NOT an integrated Samsung purchase flow. Purchases remain disabled and there are no configured paid products or prices. A future purchase-enabled release needs the Samsung SDK, registered products, entitlement validation, restore/acknowledgement handling, device testing and store review. Prices can be configured later. An app does not need to be live to register and test IAP products.
+On October 2, 2026, the publisher explicitly requested production remote activation. Revision 5 enables ads and billing; DualZone ad-unit configuration version 5 enables all five formats. Analytics, crash reporting, maintenance, forced updates and unfinished features remain unchanged/off. See `ACTIVATION-2026-10-02.md` for scope and rollback.
+
+The prepared signed 1.1.0 (8) candidate integrates Samsung IAP, receipt checks, restore and acknowledgment for four products. The previous binary did not integrate Samsung checkout; a remote flag cannot add that SDK. The publisher reports the four products active in Seller Portal. Physical Samsung purchase/restore and ad delivery remain unverified, and this config activation is not evidence of candidate store approval or production QA completion.
 
 Reference: https://developer.samsung.com/iap/programming-guide/integrate-iap-helper-into-your-app.html
 
